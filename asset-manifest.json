@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pump-it-up/static/css/main.ebcadc54.css",
+    "main.js": "/pump-it-up/static/js/main.89449f91.js",
+    "static/js/787.90895c91.chunk.js": "/pump-it-up/static/js/787.90895c91.chunk.js",
+    "index.html": "/pump-it-up/index.html",
+    "static/media/guided-meditation.mp3": "/pump-it-up/static/media/guided-meditation.31d6cfe0d16ae931b73c.mp3",
+    "main.ebcadc54.css.map": "/pump-it-up/static/css/main.ebcadc54.css.map",
+    "main.89449f91.js.map": "/pump-it-up/static/js/main.89449f91.js.map",
+    "787.90895c91.chunk.js.map": "/pump-it-up/static/js/787.90895c91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebcadc54.css",
+    "static/js/main.89449f91.js"
+  ]
+}
