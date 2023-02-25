@@ -2,7 +2,7 @@ export default function MainMenu(props) {
     return (
         <div>
             <header>
-                <h1 className="main-menu--title">EXERCISES</h1>
+                <h1 className="main-menu--title">PUMP IT UP</h1>
             </header>
             <div className="main-menu--btn-group">
                 <button className="main-menu--btn" onClick={props.activatePushups}>
