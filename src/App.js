@@ -1,10 +1,10 @@
 import './App.css';
-import pushupImg from './assets/images/pushup.png';
-import runningImg from './assets/images/running.png';
-import plankImg from './assets/images/plank.png';
-import meditationImg from './assets/images/meditation.png';
-import meditationAudio from "./assets/audio/guided-meditation.mp3"; // courtesy of 5 Minutes by Great Meditation (YouTube)
-import soundwaves from "./assets/images/soundwaves.png";
+// import pushupImg from './assets/images/pushup.png';
+// import runningImg from './assets/images/running.png';
+// import plankImg from './assets/images/plank.png';
+// import meditationImg from './assets/images/meditation.png';
+// import meditationAudio from "./assets/audio/guided-meditation.mp3"; // courtesy of 5 Minutes by Great Meditation (YouTube)
+// import soundwaves from "./assets/images/soundwaves.png";
 
 import { useState } from 'react';
 import MainMenu from './components/MainMenu';
@@ -13,6 +13,13 @@ import RepetitionExercise from './components/RepetitionExercise';
 import GuidedExercise from './components/GuidedExercise';
 
 function App() {
+  let pushupImg = require('./assets/images/pushup.png');
+  let runningImg = require('./assets/images/running.png');
+  let plankImg = require('./assets/images/plank.png');
+  let meditationImg = require('./assets/images/meditation.png');
+  let meditationAudio = require("./assets/audio/guided-meditation.mp3"); // courtesy of 5 Minutes by Great Meditation (YouTube)
+  let soundwaves = require("./assets/images/soundwaves.png");
+
   const [menuActive, setMenuActive] = useState(true);
   const [pushupsActive, setPushupsActive] = useState(false);
   const [runningActive, setRunningActive] = useState(false);
