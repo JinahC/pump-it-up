@@ -1,10 +1,10 @@
 import './App.css';
-import pushupImg from './images/pushup.png';
-import runningImg from './images/running.png';
-import plankImg from './images/plank.png';
-import meditationImg from './images/meditation.png';
-import meditationAudio from "./audio/guided-meditation.mp3"; // courtesy of 5 Minutes by Great Meditation (YouTube)
-import soundwaves from "./images/soundwaves.png";
+import pushupImg from './assets/images/pushup.png';
+import runningImg from './assets/images/running.png';
+import plankImg from './assets/images/plank.png';
+import meditationImg from './assets/images/meditation.png';
+import meditationAudio from "./assets/audio/guided-meditation.mp3"; // courtesy of 5 Minutes by Great Meditation (YouTube)
+import soundwaves from "./assets/images/soundwaves.png";
 
 import { useState } from 'react';
 import MainMenu from './components/MainMenu';
